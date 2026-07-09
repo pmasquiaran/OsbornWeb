@@ -73,20 +73,16 @@
 	Media queries para las principales etiquetas HTML5
 	================================================================================================ */
 
-@media(max-width:600px) {}
-@media(min-width:601px) {}
-@media(min-width:993px) {}
-@media(min-width:1201px) {}
+@media(max-width:991px) {}
+@media(min-width:992px) {}
 
 
 /*
 	Media queries para estilos CSS de la plantilla
 	========================================================================== */
 
-@media(max-width:600px) {}
-@media(min-width:601px) {}
-@media(min-width:993px) {}
-@media(min-width:1201px) {}
+@media(max-width:991px) {}
+@media(min-width:992px) {}
 
 
 /*
@@ -148,6 +144,22 @@
   background-blend-mode: overlay;
   -webkit-animation-name: glitch-anim-flash;
   animation-name: glitch-anim-flash;
+}
+
+
+/*
+  Media queries para estilos CSS de la plantilla
+  ========================================================================== */
+
+@media (max-width: 991px) {
+  .glitch-item {
+    background-image: url('../media/carton-movil.webp');
+  }
+}
+@media (min-width: 992px) {
+  .glitch-item {
+    background-image: url('../media/carton-escritorio.webp');
+  }
 }
 
 
